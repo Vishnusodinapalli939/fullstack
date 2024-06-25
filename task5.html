@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+      }
+      form{
+        border:1px solid black;
+        width:350px;
+        height:250px;
+        text-align: center;
+        padding:20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>WEEKLY SCHEDULE</h2>
+    <table>
+      <tr>
+        <th>day/time</th>
+        <th>7:30am-8:00am</th>
+        <th>8:30am-10:00am</th>
+        <th>10:00am-1:00pm</th>
+        <th>1:30pm-2:00pm</th>
+        <th>2:30pm-3:30pm</th>
+        <th>4:00pm-5:00pm</th>
+        <th>5:30pm-6:30pm</th>
+        <th>7:00pm-9:00pm</th>
+      </tr>
+      <tr>
+        <th>monday</th>
+        <td rowspan="6">
+          B<br />R<br />E<br />A<br />k<br />F<br />A<br />S<br />T<br />
+        </td>
+        <td>HTML</td>
+        <td rowspan="3">communication</td>
+        <td rowspan="6">L<br />U<br />N<br />C<br />H</td>
+        <td>HTML Practice</td>
+        <td rowspan="6">revison class</td>
+        <td rowspan="6">B<br />R<br />E<br />A<br />K</td>
+        <td rowspan="2">c programming</td>
+      </tr>
+      <tr>
+        <th>tuesday</th>
+        <!-- <td>breakfast</td> -->
+        <td>CSS</td>
+        <!-- <td>communication</td> -->
+        <!-- <td>lunch</td> -->
+        <td>CSS practice</td>
+        <!-- <td>revison class</td> -->
+        <!-- <td>break</td> -->
+        <!-- <td>c programming</td> -->
+      </tr>
+      <tr>
+        <th>wednesday</th>
+        <!-- <td>breakfast</td> -->
+        <td rowspan="2">JAVASCRIPT</td>
+        <!-- <td>communication</td> -->
+        <!-- <td>lunch</td> -->
+        <td rowspan="2">JS practice</td>
+        <!-- <td>revison class</td> -->
+        <!-- <td>break</td> -->
+        <td rowspan="2">SQL practice</td>
+      </tr>
+      <tr>
+        <th>thursday</th>
+        <!-- <td>breakfast</td> -->
+        <!-- <td>JAVASCRIPT</td> -->
+        <td rowspan="3">APTITUDE</td>
+        <!-- <td>lunch</td> -->
+        <!-- <td>JS practice</td> -->
+        <!-- <td>revison class</td> -->
+        <!-- <td>break</td> -->
+        <!-- <td>SQL practice</td> -->
+      </tr>
+      <tr>
+        <th>friday</th>
+        <!-- <td>breakfast</td> -->
+        <td rowspan="2">REACT JS</td>
+        <!-- <td>APTITUDE</td> -->
+        <!-- <td>lunch</td> -->
+        <td rowspan="2">REACT practice</td>
+        <!-- <td>revison class</td> -->
+        <!-- <td>break</td> -->
+        <td rowspan="2">JS practice</td>
+      </tr>
+      <tr>
+        <th>saturday</th>
+        <!-- <td>breakfast</td> -->
+        <!-- <td>REACT JS</td> -->
+        <!-- <td>APTITUDE</td> -->
+        <!-- <td>lunch</td> -->
+        <!-- <td>REACt practice</td> -->
+        <!-- <td>revison class</td> -->
+        <!-- <td>break</td> -->
+        <!-- <td>JS practice</td> -->
+      </tr>
+    </table>
+    <h2>HTML FORM</h2>
+    <form>
+      <label for="uname">UserName</label>
+      <input
+        type="text"
+        id="uname"
+        name="uname"
+        placeholder="enter user name"
+      /><br /><br />
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="abc@gmail.com"
+      /><br /><br />
+      <label for="pswd">Password</label>
+      <input
+        type="password"
+        id="psed"
+        name="password"
+        placeholder="enter a strong password"
+      /><br /><br />
+      <label>choose Fav_lang</label>
+      <select name="fav_lang" id="lang">
+        <option value="c">c</option>
+        <option value="Python">python</option>
+        <option value="Java">java</option>
+        <option value="c++">c++</option>
+        <option value="Javascript">javascript</option>
+        <option value="SQL">SQL</option>
+        <option value="R">R</option></select
+      ><br /><br />
+      <label for="gender">Gender</label>
+      <input type="radio" id="male" name="gender" value="male" /><label
+        for="male"
+        >male</label
+      >
+      <input type="radio" id="female" name="gender" value="female" /><label
+        for="female"
+        >female</label
+      ><br /><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
