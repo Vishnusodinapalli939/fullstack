@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            width:500px;
+            height: 100px;
+            text-align: center;
+        }
+        #td1{
+            background-color: chartreuse;
+        }
+        #td2{
+            background-color: navy;
+        }
+        #td3{
+            background-color: yellowgreen;
+        }
+        #td4{
+            background-color: seagreen;
+        }
+        #td5{
+            background-color:red ;
+        }
+        .td1{
+            background-color: lightgreen;
+        }
+        .td2{
+            background-color: royalblue;
+        }
+        .td3{
+            background-color: chocolate;
+        }
+        .td4{
+            background-color: green;
+        }
+        .td5{
+            background-color: hotpink;
+        }
+        #row4{
+            background-color: blue;
+        }
+        #d1{
+            background-color: chocolate;
+        }
+        #d2{
+            background-color: maroon;
+        }
+        #d3{
+            background-color: mediumslateblue;
+        }
+        #d4{
+            background-color: magenta;
+        }
+        #d5{
+            background-color: gold;
+        }
+        h1{
+            background-color: blue;
+        }
+        #h1{
+            background-color: gold;
+        }
+        .h1{
+            background-color: green;
+        }
+        /* p{
+            background-color: black;
+        } */
+        .p{
+            background-color: blueviolet;
+        }
+        /* *{ */
+            /* background-color: black; */
+        /* } */
+    </style>
+    <link href="./day11.css" rel="stylesheet">
+</head>
+<body>
+    <table id="table">
+        <tr>
+            <td style="background-color:aqua">data1</td>
+            <td style="background-color:rebeccapurple">data2</td>
+            <td style="background-color:blue">data3</td>
+            <td style="background-color:violet">data4</td>
+            <td style="background-color:blueviolet">data5</td>
+        </tr>
+        <tr id="row2">
+            <td id="td1">data1</td>
+            <td id="td2">data2</td>
+            <td id="td3">data3</td>
+            <td id="td4">data4</td>
+            <td id="td4">data5</td>
+        </tr>
+        <tr>
+            <td class="td1">data1</td>
+            <td class="td2">data2</td>
+            <td class="td3">data3</td>
+            <td class="td4">data4</td>
+            <td class="td5">data5</td>
+        </tr>
+        <tr>
+            <td id="d1">data1</td>
+            <td id="d2">data2</td>
+            <td id="d3">data3</td>
+            <td id="d4">data4</td>
+            <td id="d5">data5</td>
+        </tr>
+        <tr>
+            <td class="d1">data1</td>
+            <td class="d2">data2</td>
+            <td class="d3">data3</td>
+            <td class="d4">data4</td>
+            <td class="d5">data5</td>
+        </tr>
+    </table>
+    <br>
+    <h1 style="background-color: brown;">inline</h1>
+    <h1>internal</h1>
+    <h2>we can conclude that inline css have high priority than internal css</h2>
+    <h1 id="h1" class="h1">id</h1>
+    <h2>we can conclude that id have more priority than class</h2>
+    <p class="p">paragraph</p>
+    <h2>class having more priority than by using tag name </h2>
+   
+</body>
+
+</html>
